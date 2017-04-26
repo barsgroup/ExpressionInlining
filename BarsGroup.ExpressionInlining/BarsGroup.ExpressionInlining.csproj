@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard1.4;net45</TargetFrameworks>
+    <Version>1.0.0</Version>
+    <Authors>Gapanovich Igor</Authors>
+    <Company>BarsGroup<Company/>
+    <Product>BarsGroup.ExpressionInlining</Product>
+    <Description>Methods for inlining LINQ expressions inside other expressions to reduce code duplication.</Description>
+    <PackageProjectUrl>https://github.com/barsgroup/ExpressionInlining</PackageProjectUrl>
+    <PackageTags>c# expression</PackageTags>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|netstandard1.4|AnyCPU'">
+    <DocumentationFile>bin\Release\netstandard1.4\ExpressionInlining.xml</DocumentationFile>
+  </PropertyGroup>
+
+</Project>
